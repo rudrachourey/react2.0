@@ -16,11 +16,11 @@ function LandingPage() {
               <div className="w-fit flex items-center">
                 {index === 1 && (
 
-                  <motion.div initial={{width:0}} animate={{width:"8.6vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1  }} className="w-[8.6vw] mr-2 relative top-[-1vw]  mb-[1.2vw] h-[5.5vw] overflow-hidden rounded-md">
+                  <motion.div initial={{width:0}} animate={{width:"8.6vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1  }} className="w-[8.6vw] mr-2 relative top-[1vw]  mb-[1.2vw] h-[5.5vw] overflow-hidden rounded-md">
                     <img className="h-full" src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" />
                   </motion.div>
                 )}     
-               <h1 key={index} className="flex items-center justify-center uppercase text-[9vw] h-full tracking-tighter font-semibold leading-[6vw] font-['Founders_Grotesk']">
+               <h1 key={index} className="flex items-center justify-center uppercase text-[9.3vw] h-full tracking-[0.1px] font-semibold leading-[6vw] font-['FoundersGrotesk']">
                   {text}</h1>
               </div>
             </div>
@@ -40,7 +40,7 @@ function LandingPage() {
           </p>
         ))}
         <div className="start flex items-center gap-3">
-          <div className="px-6 py-1 border-[1.6px] uppercase border-zinc-500 font-[NeueMontreal, Roboto, sans-serif] rounded-full">
+          <div className="px-6 py-1 border-[1.6px] uppercase border-zinc-500 font-[NeueMontreal] rounded-full">
             Start The Project
           </div>
           <div className="w-9 h-9 flex justify-center items-center text-[1.5vw] rounded-full text-zinc-700 font-medium border-[1.5px] border-zinc-500  ">

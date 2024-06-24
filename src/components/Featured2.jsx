@@ -30,7 +30,7 @@ function Featured() {
         </div>
       </div>
       <div className="px-16 relative">
-        <h1 className='flex  absolute text-[#CDEA68] z-[9] overflow-hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-["NeueMontreal, Roboto, sans-serif"] tracking-tighter  font-bold text-[6vw]'>
+        <h1 className='flex  absolute text-[#CDEA68] z-[9] overflow-hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-["NeueMontreal"] tracking-tighter  font-bold text-[6vw]'>
           {"TRAWA".split("").map((item, index) => (
             <motion.span
               initial={{ y: "100%" }}
@@ -45,7 +45,7 @@ function Featured() {
             </motion.span>
           ))}
         </h1>
-        <h1 className=' absolute flex overflow-hidden text-[#CDEA68] z-[9] right-1/2 top-1/2 translate-x-1/2 -translate-y-1/2 font-["NeueMontreal, Roboto, sans-serif"] tracking-tighter  font-bold text-[6vw]'>
+        <h1 className=' absolute flex overflow-hidden text-[#CDEA68] z-[9] right-1/2 top-1/2 translate-x-1/2 -translate-y-1/2 font-["NeueMontreal"] tracking-tighter  font-bold text-[6vw]'>
           {"PREMIUM BLEND".split("").map((item, index) => (
             <motion.span
               initial={{ y: "100%" }}

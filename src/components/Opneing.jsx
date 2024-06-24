@@ -68,7 +68,7 @@ function Opneing() {
             </div>
           </div>
          </div>
-        <h1 className=" text-[12vw] text-[#212121] font-semibold tracking-[-10px] text-center leading-[10vw] font-['Founders_Grotesk']">READY <br /> TO START <br/> THE PROJECT?</h1>
+        <h1 className=" text-[17vw] text-[#212121] font-semibold  text-center leading-[11.3vw] font-['FoundersGrotesk']">READY <br /> TO START <br/> THE PROJECT?</h1>
       </div>
     </div>
   );

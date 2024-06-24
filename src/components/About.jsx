@@ -24,7 +24,7 @@ const About = () => {
 
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-.06">
-      <div className="overflow-hidden w-full z-30 px-16 py-20  bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black font-['Neue_Montreal']   ">
+      <div className="overflow-hidden w-full z-30 px-16 py-20  bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black font-['NeueMontreal']   ">
         <h1 className="text-[3.5vw] leading-[4vw] ">
           Ochi is a strategic partner for fast-grow­ing tech <br /> businesses
           that need to raise funds, sell prod­ucts, <br /> ex­plain com­plex

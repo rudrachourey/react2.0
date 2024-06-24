@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed='.1' className="w-full flex h-screen bg-white text-[#212121] font-['Founders_Grotesk'] p-14">
+    <div data-scroll data-scroll-section data-scroll-speed='.1' className="w-full flex h-screen bg-white text-[#212121] font-['FoundersGrotesk'] p-14">
       <div className='w-1/2 flex flex-col h-full justify-between '>
         <div className="heading">
           <h1 className=" text-[8vw] uppercase font-semibold leading-none -mb-10">
@@ -45,26 +45,26 @@ function Footer() {
         <h1 className=" text-[6vw] uppercase font-semibold leading-none -mb-10">
           Presentations
         </h1>
-        <div className="dets mt-10 flex flex-col font-['Neue_Montreal']">
+        <div className="dets mt-10 flex flex-col font-['NeueMontreal']">
             <a className="block text-lg font-light" href="#">FaceBook</a>
             <a className="block text-lg font-light" href="#">Instagram</a>
             <a className="block text-lg font-light" href="#">Twitter</a>
         </div>
-        <div className="dets mt-10 flex flex-col font-['Neue_Montreal']">
+        <div className="dets mt-10 flex flex-col font-['NeueMontreal']">
             <a className="block text-lg font-light" href="#">L:</a>
         </div>
-        <div className="dets mt-10 flex flex-col font-['Neue_Montreal']">
+        <div className="dets mt-10 flex flex-col font-['NeueMontreal']">
             <a className="block text-lg font-light" href="#">202-1965 W 4th Ave</a>
             <a className="block text-lg font-light" href="#">Vancouver, Canada</a>
         </div>
-        <div className="dets mt-10 flex flex-col font-['Neue_Montreal']">
+        <div className="dets mt-10 flex flex-col font-['NeueMontreal']">
             <a className="block text-lg font-light" href="#">30 Chukarina St</a>
             <a className="block text-lg font-light" href="#">Lviv, Ukraine</a>
         </div>
-        <div className="dets mt-10 flex flex-col font-['Neue_Montreal']">
+        <div className="dets mt-10 flex flex-col font-['NeueMontreal']">
             <a className="block text-lg font-light" href="#">E:</a>
         </div>
-        <div className="dets mt-10 flex flex-col font-['Neue_Montreal']">
+        <div className="dets mt-10 flex flex-col font-['NeueMontreal']">
             <a className="block text-lg font-light" href="#">hello@0022</a>
         </div>
       </div>

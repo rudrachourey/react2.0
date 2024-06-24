@@ -20,12 +20,12 @@ function Featured() {
   return (
     <div className="w-full py-[7vw] "> 
       <div className="w-full px-16 border-b-[1px] pb-7 border-[#212121] ">
-        <h1 className='text-[3.7vw] font-["Neue_Montreal"]  text-[#212121]'>
+        <h1 className='text-[3.7vw] font-["NeueMontreal"]  text-[#212121]'>
           Featured Projects
         </h1>
       </div>
       <div className="px-16  relative">
-        <h1 className='flex  absolute text-[#CDEA68] z-[9] overflow-hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  font-["NeueMontreal, Roboto, sans-serif"] tracking-tighter font-bold text-[8vw]'>
+        <h1 className='flex  absolute text-[#CDEA68] z-[9] overflow-hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  font-["NeueMontreal"] tracking-tighter font-bold text-[8vw]'>
           {"FYDE".split("").map((item, index) => (
             <motion.span
               initial={{ y: "100%" }}
@@ -40,7 +40,7 @@ function Featured() {
             </motion.span>
           ))}
         </h1>
-        <h1 className=' absolute flex overflow-hidden text-[#CDEA68] z-[9] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  font-["NeueMontreal, Roboto, sans-serif"] tracking-tighter font-bold text-[8vw]'>
+        <h1 className=' absolute flex overflow-hidden text-[#CDEA68] z-[9] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  font-["NeueMontreal"] tracking-tighter font-bold text-[8vw]'>
           {"VISE".split("").map((item, index) => (
             <motion.span
               initial={{ y: "100%" }}
