@@ -30,9 +30,9 @@ function Opneing() {
     }); // Adjust debounce delay as needed
 });
   return (
-    <div data-scroll data-scroll-section data-scroll-speed='-.6'  className="w-full h-screen relative bg-[#CDEA68]">
+    <div data-scroll data-scroll-section data-scroll-speed='-.8'  className="w-full h-screen relative bg-[#CDEA68]">
       <div className="w-full h-full flex items-center justify-center ">
-         <div  data-scroll data-scroll-speed='.3' className="absolute flex gap-10  left-[35%] top-[20%] -translate-y-[50%] -translate-x-[50%]">
+         <div  data-scroll data-scroll-speed='.3' className="absolute flex gap-10  left-[35%] top-[30%] -translate-y-[50%] -translate-x-[50%]">
          <div className="w-[11vw] h-[11vw] flex items-center justify-center  bg-white rounded-full">
             <div
               style={{
