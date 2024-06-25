@@ -1,8 +1,38 @@
-import React from "react";
+import { motion, useAnimation } from "framer-motion";
+import React, { useEffect, useState } from "react";
+import {debounce} from 'lodash';
 
 function Navbar() {
+ const controls = useAnimation();
+ const [lastScrollTop, setLastScrollTop] = useState(0)
+
+ useEffect(()=>{
+  const handlScroll = debounce(()=>{
+    const scrollTop  = window.pageYOffset || document.documentElement.scrollTop;
+
+    if(scrollTop > lastScrollTop){
+      controls.start({y:"-100%"})
+      // Runs when the user is scrolling down
+    }else if(scrollTop < lastScrollTop){
+      controls.start({y:"0%"})
+      // Runs when the user is scrolling Uppward
+    }
+    setLastScrollTop(scrollTop <=0 ? 0 : scrollTop);
+
+  },5)
+  window.addEventListener('scroll',handlScroll)
+  
+  return ()=>{
+      window.removeEventListener('scroll',handlScroll)
+  }
+ },[lastScrollTop, controls])
+
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 font-['Neue Montreal'] flex justify-between items-center text-[#212121]">
+    <motion.div 
+    initial={{ y: '0%' }}
+      animate={controls}
+      transition={{ duration: 0.3 }}
+    className=" bg-[rgba(94, 85, 85, 0.1),rgba(95, 89, 89, 0)] bg-opacity-10 backdrop-filter backdrop-blur-[5px]  fixed z-[999] w-full px-20 py-5 font-['Neue Montreal'] flex justify-between items-center text-[#212121]">
       <div className="logo">
         <svg
           width="72"
@@ -38,7 +68,7 @@ function Navbar() {
             <a key={index} className={`text-lg capitalize font-[2px] text-zinc-700 ${index === 4 && "ml-32"}`}>{item}</a>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
